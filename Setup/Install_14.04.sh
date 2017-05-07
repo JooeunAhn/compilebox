@@ -3,8 +3,8 @@
 ###########################
 # Docker SETUP
 ###########################
-apt-get update
-apt-get install -y docker.io
+sudo apt-get update
+sudo apt-get install -y docker.io
 ln -sf /usr/bin/docker.io /usr/local/bin/docker
 sed -i '$acomplete -F _docker docker' /etc/bash_completion.d/docker.io
 
@@ -13,9 +13,9 @@ echo "Docker Setup complete"
 ###########################
 # NodeJS setup
 ###########################
-apt-get update
-apt-get install -y nodejs
-apt-get install -y npm
+sudo apt-get update
+sudo apt-get install -y nodejs
+sudo apt-get install -y npm
 echo "NodeJS setup Complete"
 
 ###########################
