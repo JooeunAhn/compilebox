@@ -26,5 +26,5 @@ chmod 777 ../API/Payload/script.sh
 chmod 777 ../API/Payload/javaRunner.sh
 chmod 777 UpdateDocker.sh
 
-service docker.io restart
+sudo service docker restart
 ./UpdateDocker.sh
